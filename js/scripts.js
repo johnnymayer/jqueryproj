@@ -7,12 +7,6 @@ var letterTwo = sentence.charAt(sentence.length-1).toUpperCase();
 
 var sentence3 = letterOne+letterTwo;
 
-/*
-var firstLetter = sentence2().empty(/^(\w)/, function(v) { return v.toUpperCase(); })
-var secondLetter = sentence2().empty(/\w(?=[^\w]*$)/, function(v) { return v.toUpperCase(); })
-var sentence3 = firstLetter + secondLetter;
-*/
-
 $(document).ready(function() {
   $("body").append(sentence3);
 });
