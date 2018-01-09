@@ -2,8 +2,9 @@
 
 var sentence = prompt("Please enter a sentence.");
 
-var letterOne = sentence.charAt(0).toUpperCase();
-var letterTwo = sentence.charAt(sentence.length-1).toUpperCase();
+// Use string.match() for the letterOne, letterTwo vars.  01.08.18, 22:21.
+// var letterOne = sentence.charAt(0).toUpperCase();
+// var letterTwo = sentence.charAt(sentence.length-1).toUpperCase();
 
 var sentence3 = letterOne+letterTwo;
 
